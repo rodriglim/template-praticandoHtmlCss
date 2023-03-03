@@ -1,0 +1,81 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    position: relative;
+    height: 50vh;
+    width: auto;
+    display: inline-block;
+}
+
+div#container {
+    color: white;
+    width: 60%;
+    margin-left: 10%;
+    height: auto;
+    position: relative;
+}
+
+div#container .conteudo-principal {
+    height: 50vh;
+    margin-top: 15%;
+
+}
+
+div#container .conteudo-principal h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+    font-size: 2.30rem;
+}
+
+div#container .conteudo-principal .color-parteh1 {
+    color: rgb(197, 114, 236);
+}
+
+div#container .conteudo-principal p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.125rem;
+    text-align: justify;
+    display: inline-flexbox;
+    width: 71%;
+    padding: 0px 0px 50px;
+    word-spacing: 1px;
+}
+
+.btn-input button {
+    background-image: linear-gradient(to right, rgb(146, 14, 12), rgb(92, 18, 128));
+    color: white;
+    height: 10vh;
+    position: relative;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-family: "ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn-input button:hover{
+    background-image: linear-gradient(to right, rgb(13, 206, 55), rgb(92, 18, 128));
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+div#container #img-id{
+    background-image: linear-gradient(to right, rgb(216, 141, 204), rgb(255, 9, 181));
+    position: absolute;
+    overflow: hidden;
+    float: left;
+    margin-left: 100%;
+    border-radius: 100%;
+    margin-top: -10%;
+    height: 500px;
+    width: 500px;
+    display: inline-flexbox;
+}
+
+div#container #img-id img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    }
